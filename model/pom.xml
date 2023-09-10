@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>gmall-parent</artifactId>
+        <groupId>com.gmall</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>model</artifactId>
+
+    <description>所有微服务的pojo</description>
+
+    <!--引入相关依赖-->
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <!--mybatis-plus-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+            <version>2.0.9</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>1.5.22</version>
+        </dependency>
+
+        <!--引入es 相关配置jar-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.swagger.core.v3</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>2.2.8</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+
+    <!-- <dependencies> -->
+    <!--     <dependency> -->
+    <!--         <groupId>org.projectlombok</groupId> -->
+    <!--         <artifactId>lombok</artifactId> -->
+    <!--     </dependency> -->
+
+    <!--     &lt;!&ndash;mybatis-plus&ndash;&gt; -->
+    <!--     <dependency> -->
+    <!--         <groupId>com.baomidou</groupId> -->
+    <!--         <artifactId>mybatis-plus-boot-starter</artifactId> -->
+    <!--         <scope>provided </scope> -->
+    <!--     </dependency> -->
+
+    <!--     <dependency> -->
+    <!--         <groupId>com.github.xiaoymin</groupId> -->
+    <!--         <artifactId>knife4j-spring-boot-starter</artifactId> -->
+    <!--         <version>2.0.9</version> -->
+    <!--     </dependency> -->
+
+    <!--     <dependency> -->
+    <!--         <groupId>org.springdoc</groupId> -->
+    <!--         <artifactId>springdoc-openapi-ui</artifactId> -->
+    <!--     </dependency> -->
+
+    <!--     <dependency> -->
+    <!--         <groupId>io.swagger</groupId> -->
+    <!--         <artifactId>swagger-annotations</artifactId> -->
+    <!--         <version>1.5.22</version> -->
+    <!--     </dependency> -->
+
+    <!--     <dependency> -->
+    <!--         <groupId>io.swagger.core.v3</groupId> -->
+    <!--         <artifactId>swagger-annotations</artifactId> -->
+    <!--         <version>2.2.8</version> -->
+    <!--         <scope>compile</scope> -->
+    <!--     </dependency> -->
+
+    <!--     &lt;!&ndash; &lt;!&ndash;swagger&ndash;&gt; &ndash;&gt; -->
+    <!--     &lt;!&ndash; <dependency> &ndash;&gt; -->
+    <!--     &lt;!&ndash;     <groupId>io.springfox</groupId> &ndash;&gt; -->
+    <!--     &lt;!&ndash;     <artifactId>springfox-swagger2</artifactId> &ndash;&gt; -->
+    <!--     &lt;!&ndash;     <scope>provided </scope> &ndash;&gt; -->
+    <!--     &lt;!&ndash; </dependency> &ndash;&gt; -->
+
+    <!--     &lt;!&ndash;引入es 相关配置jar&ndash;&gt; -->
+    <!--     <dependency> -->
+    <!--         <groupId>org.springframework.boot</groupId> -->
+    <!--         <artifactId>spring-boot-starter-data-elasticsearch</artifactId> -->
+    <!--         <scope>provided </scope> -->
+    <!--     </dependency> -->
+    <!-- </dependencies> -->
+</project>
